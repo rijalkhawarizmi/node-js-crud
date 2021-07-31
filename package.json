@@ -1,0 +1,31 @@
+{
+  "name": "node-js-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nodemon.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rijalkhawarizmi/node-js-crud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rijalkhawarizmi/node-js-crud/issues"
+  },
+  "homepage": "https://github.com/rijalkhawarizmi/node-js-crud#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
